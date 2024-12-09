@@ -3,43 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Blog by Nikdo___">
-    <title>Blog by Nikdo___</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        h1 {
-            color: #0077cc;
-        }
-        p {
-            max-width: 600px;
-            margin-bottom: 20px;
-        }
-    </style>
+    <title>Můj Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Kdo jsem já?</h1>
+        <h1>Můj Blog</h1>
+        <p>Osobní prostor pro sdílení nápadů, příběhů a poznatků.</p>
     </header>
-    <main>
-        <p>
-            Jsem z Brna, a teď se očividně budu muset naučit HTML...
-            Ale jinak se snažím žít a přežít.
-        </p>
-        <p>
-            Také se snažím přežít školu, mít sociální život a občas 
-            modovat na Twitchi a častěji na Discordu. A taky mám ráda koťátka!
-        </p>
-        <p>
-            Mezi mé (né moc fancy) zájmy patří třeba grafika, možná i programování,
-            a občas se objevím i venku.
-        </p>
-    </main>
+    <div class="container">
+        <main>
+            <article>
+                <h2>První Příspěvek</h2>
+                <p><small>Publikováno: 9. prosince 2024</small></p>
+                <p>
+                    Toto je můj první příspěvek na blogu. Rád bych se podělil o své zážitky 
+                    a myšlenky. Doufám, že si čtení užijete!
+                </p>
+                <a href="#">Číst dál...</a>
+            </article>
+            <article>
+                <h2>Další Zajímavý Příspěvek</h2>
+                <p><small>Publikováno: 8. prosince 2024</small></p>
+                <p>
+                    Blogování je skvělý způsob, jak komunikovat se světem. Tento příspěvek se 
+                    zaměřuje na to, jak začít svůj vlastní blog.
+                </p>
+                <a href="#">Číst dál...</a>
+            </article>
+        </main>
+        <aside>
+            <section>
+                <h3>Kategorie</h3>
+                <ul>
+                    <li><a href="#">Technologie</a></li>
+                    <li><a href="#">Cestování</a></li>
+                    <li><a href="#">Životní styl</a></li>
+                    <li><a href="#">Osobní</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3>O mně</h3>
+                <p>Ahoj! Jmenuji se Jan Novák a miluji psaní o různých tématech. 
+                   Vítejte na mém blogu!</p>
+            </section>
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2024 Můj Blog. Všechna práva vyhrazena.</p>
+    </footer>
 </body>
 </html>
 
